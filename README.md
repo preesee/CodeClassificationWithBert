@@ -1,2 +1,2 @@
 # CodeClassificationWithBert
-for code classification, unzip training data in folder 'data'. 
+For code classification, unzip training data in folder 'data'. 
