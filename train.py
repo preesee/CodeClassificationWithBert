@@ -18,12 +18,12 @@ from transformers import BertTokenizerFast  # BertTokenizer, BertModel, BertForS
 
 from tree import trans_to_sequences
 
-TRAIN_CSV = '/codeclone_data/code_classification_data_for_Ccode.csv'
+TRAIN_CSV = '/data/code_classification_data_for_Ccode.csv'
 
-config_path='/codeclone_data/uncased_L-12_H-768_A-12/bert_config.json'
+config_path='/data/uncased_L-12_H-768_A-12/bert_config.json'
 config_path=os.path.join(os.getcwd(), *config_path.split('/'))
 
-checkpoint_path= '/codeclone_data/uncased_L-12_H-768_A-12/bert_model.ckpt'
+checkpoint_path= '/data/uncased_L-12_H-768_A-12/bert_model.ckpt'
 checkpoint_path=os.path.join(os.getcwd(), *checkpoint_path.split('/'))
 parser = c_parser.CParser()
 # Load training and test set
