@@ -4,6 +4,7 @@ This repo provides the code for reproducing the experiments in ASTBERT: A Fine-t
 
 For code classification, unzip and release the csv training data in folder 'data'. 
 For code clone detection untar and release the Json file  in folder 'data'.
+
 tar -xvf data_Java_code_pairs.tar
 
 # Dependency
